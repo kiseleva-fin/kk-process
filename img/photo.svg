@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-label="Фото-заглушка">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe7e2"/>
+      <stop offset="1" stop-color="#b9c9c0"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3326"/>
+      <stop offset="1" stop-color="#2e1f17"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f3b33"/>
+      <stop offset="1" stop-color="#132822"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#bg)"/>
+  <circle cx="380" cy="110" r="140" fill="#ffffff" opacity=".25"/>
+  <!-- волосы сзади -->
+  <path d="M150 210 C140 120 200 80 245 82 C300 84 345 125 338 215 C335 290 350 360 330 400 L160 400 C135 350 155 285 150 210 Z" fill="url(#hair)"/>
+  <!-- шея -->
+  <path d="M215 300 L265 300 L270 372 L210 372 Z" fill="#e2b496"/>
+  <path d="M215 330 Q240 348 266 330 L268 350 Q240 368 212 350 Z" fill="#c99a7d" opacity=".55"/>
+  <!-- блузка -->
+  <path d="M190 380 L240 440 L290 380 L300 600 L180 600 Z" fill="#f4f1ea"/>
+  <!-- жакет -->
+  <path d="M60 600 C62 470 110 405 200 378 L240 470 L214 600 Z" fill="url(#suit)"/>
+  <path d="M420 600 C418 470 370 405 280 378 L240 470 L266 600 Z" fill="url(#suit)"/>
+  <path d="M200 378 L222 440 L208 450 L240 470 Z" fill="#2a4a40"/>
+  <path d="M280 378 L258 440 L272 450 L240 470 Z" fill="#2a4a40"/>
+  <!-- лицо -->
+  <ellipse cx="240" cy="215" rx="72" ry="92" fill="#eec3a6"/>
+  <ellipse cx="168" cy="225" rx="11" ry="18" fill="#e2b496"/>
+  <ellipse cx="312" cy="225" rx="11" ry="18" fill="#e2b496"/>
+  <!-- серьги -->
+  <circle cx="168" cy="248" r="4" fill="#c8a45a"/>
+  <circle cx="312" cy="248" r="4" fill="#c8a45a"/>
+  <!-- брови, глаза -->
+  <path d="M200 192 Q214 184 228 191" stroke="#3a2720" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M252 191 Q266 184 280 192" stroke="#3a2720" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="214" cy="212" rx="7" ry="5" fill="#2b1d16"/>
+  <ellipse cx="266" cy="212" rx="7" ry="5" fill="#2b1d16"/>
+  <!-- нос, губы -->
+  <path d="M240 220 Q236 245 232 252 Q240 257 248 252" stroke="#c99a7d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M220 272 Q240 286 260 272 Q240 278 220 272 Z" fill="#b85d5d"/>
+  <!-- щёки -->
+  <ellipse cx="200" cy="248" rx="14" ry="8" fill="#e59a8a" opacity=".35"/>
+  <ellipse cx="280" cy="248" rx="14" ry="8" fill="#e59a8a" opacity=".35"/>
+  <!-- чёлка / пробор -->
+  <path d="M166 205 C160 140 205 112 245 115 C220 140 200 170 176 230 Z" fill="url(#hair)"/>
+  <path d="M245 115 C290 112 325 145 316 220 C300 175 280 145 245 115 Z" fill="url(#hair)"/>
+  <!-- пряди на плечах -->
+  <path d="M168 230 C160 300 150 350 175 395 L200 382 C180 340 182 290 180 240 Z" fill="url(#hair)"/>
+  <path d="M312 230 C320 300 332 350 305 395 L280 382 C300 340 298 290 300 240 Z" fill="url(#hair)"/>
+</svg>
